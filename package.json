@@ -1,7 +1,7 @@
 {
-  "name": "test-git",
+  "name": "vk12345-test-git",
   "version": "0.0.1",
-  "description": "",
+  "description": "test",
   "main": "bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,10 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/vaibhavk2474/my-git-test-repo.git"
   },
-  "author": "",
+  "author": {
+    "name": "vk",
+    "email": "vaibhavk2474@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/vaibhavk2474/my-git-test-repo/issues"
   },
-  "homepage": "https://github.com/vaibhavk2474/my-git-test-repo#readme"
+  "homepage": "https://github.com/vaibhavk2474/my-git-test-repo#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/yourOrganizationOrAccount"
+  }
 }
