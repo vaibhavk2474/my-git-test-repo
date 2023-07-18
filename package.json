@@ -1,0 +1,19 @@
+{
+  "name": "test-git",
+  "version": "0.0.1",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaibhavk2474/my-git-test-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vaibhavk2474/my-git-test-repo/issues"
+  },
+  "homepage": "https://github.com/vaibhavk2474/my-git-test-repo#readme"
+}
